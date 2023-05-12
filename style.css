@@ -413,5 +413,14 @@ color: blue;
 footer{text-align: center;
   margin-top: 30px;
   background:aqua;
+  font-size: 17px;
+  
 }
 
+footer a{
+
+  text-decoration: none;
+  text-decoration-line: none;
+  color: black;
+
+}
