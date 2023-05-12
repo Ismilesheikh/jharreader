@@ -1,4 +1,4 @@
-body {
+body {margin: 0;
 }
 
 
@@ -7,7 +7,6 @@ body {
 }
 .toolbar{display:inline-flex;
  width: 100%;
- margin-top: 10px;
  background: linear-gradient(orange,white,green);
  position: -webkit-sticky;
  position: sticky;
@@ -27,11 +26,14 @@ margin:2px;
 border-radius: 10px;
 font-weight: bold;
 color: white;
-font-size: 20px;
+font-size: 18px;
 height:35px;
   
 }
 
+.toolbar button:hover{background: greenyellow;
+  color: black;
+}
 
 
 .mc{display:none;
