@@ -161,18 +161,19 @@ border-radius: 15px;
   width: 100px;
   height: 200px;
   border-radius: 100px;
-  border: 2px solid black;
+  border: 2px solid blanchedalmond;
   animation: anim 30s infinite;
   box-shadow: 2px 2px 2px 2px darkgrey;
   text-align: center;
   font-size: 15px;
   font-weight: bold;
   color: white;
-  background: limegreen;
+  background: rgb(68, 67, 68);
 }
 
 .c:hover{background: cyan;
   color: mediumvioletred;
+  cursor: pointer;
 }
 .R{writing-mode: vertical-rl;
   text-orientation: upright;
