@@ -5,7 +5,7 @@ body {margin: 0;
 
 
 .main{
-  height: 250px;
+  height: 300px;
 }
 
 nav{
@@ -462,8 +462,10 @@ color: blue;
 
 footer{text-align: center;
   margin-top: 30px;
-  background:aqua;
-  font-size: 17px;
+  background:rgb(73, 75, 75);
+  font-size: 16px;
+  color: white;
+  margin-bottom: 0px;
   
 }
 
@@ -471,6 +473,6 @@ footer a{
 
   text-decoration: none;
   text-decoration-line: none;
-  color: black;
+  color: white;
 
 }
