@@ -101,6 +101,9 @@ padding-left: 60px;
     border: none;
     color: #3498db;
   }
+
+  .class{margin-top: 250px;}
+  .s{margin-top: 250px;}
 }
   
 .sticky{position: webkit-sticky;

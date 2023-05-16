@@ -3,13 +3,7 @@ margin: 0;
   
 }
 
-.toolbar{display:flex;
- width: 100%;
- background: linear-gradient(orange,white,green);
- position: -webkit-sticky;
- position: sticky;
- top:0;
-}
+
 
 
 .tool{
@@ -69,10 +63,7 @@ text-align: center;
   color: white;
   margin-top: 10px;
   font-weight: bolder;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 80px;
-  
+ 
 }
 
 .sub button{width:90%;
