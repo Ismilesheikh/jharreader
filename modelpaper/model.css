@@ -1,0 +1,41 @@
+
+
+
+.model{text-align: center;
+    margin-bottom:20px;
+    margin-top: 20px;
+    border:2px solid darkgrey;
+    box-shadow: 2px 2px 2px 2px darkgrey;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwKg3tB7zJPBKqky81FDShsIIwCHpNFYl7eiEhhioIM6FGBYqdipY8Ho36ZfKKPTRo8et5BJ92bcC9zQagjUpjvyl2aXUiD9IOByvFaJAYv0ZrUC86qQgdv-GRsJDfO2g59mn7D0pT_W3BYYej6rBhFMj6xS0MeZdA3EsYL2ZRWgu0TfJj0zSwb4zI/s377/IMG_20230428_134211.jpg")
+      
+    }
+    
+    .m1{font-size: 30px;
+      font-weight: bold;
+      color: goldenrod;
+      margin: 5px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 1px 1px darkolivegreen;
+    }
+    
+    .m2{margin-top: 10px;
+      font-size: 25px;
+      margin-bottom: 10px;
+      background: linear-gradient(red,white,green);
+      border-radius: 15px;
+      border: none;
+      box-shadow: 2px 2px 2px 2px darkgrey;
+      width: 90%;
+      height: 130px;
+      font-size: 30px;
+      font-weight: bolder;
+    }
+    .m2:hover{  background: linear-gradient(to right,red,white,green);
+    color: white;
+    margin-left:5%;
+      
+    }
+    
