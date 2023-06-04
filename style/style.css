@@ -217,7 +217,7 @@ text-align: center;
 margin-bottom: 10px;
   
 }
-.news div{background: greenyellow;
+.news .news1{background: greenyellow;
 box-shadow: 2px 2px 2px 2px darkgrey;
   font-size: 20px;
   border: 2px darkgrey;
@@ -226,8 +226,23 @@ box-shadow: 2px 2px 2px 2px darkgrey;
 .fake{height: 5px;
 }
 
+.news1{background-color: aliceblue;}
+.news2{margin: 5px;
+  color: rgb(60, 7, 121);
+background: violet;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+mo{display: none;}
+d{background: #3498db;
+color:white;
+font-weight: bold;}
 
-
+d:hover mo{display: block;
+position: absolute;
+margin-left: 45%;
+margin-right: 2%;
+border-radius: 5pxs;
+background: #3498db;
+color: beige;}
 
 
 
