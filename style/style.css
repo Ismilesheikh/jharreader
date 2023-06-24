@@ -14,12 +14,17 @@ nav{
   background: #34495e;
 }
 
+img{width: 40px;
+height: 40px;
+border-radius: 50%;
+line-height: 80px;}
+ 
 label.logo{
   font-size: 35px;
   font-weight: bold;
   color: aliceblue;
-  padding: 0 80px;
   line-height: 80px;
+  padding: 0 80px;
 }
 .material-symbols-outlined{
   float: right;
@@ -28,6 +33,7 @@ label.logo{
   display: none;
   margin-right: 20px;
   color:#34495e ;
+  cursor: pointer;
 }
 
 
@@ -93,13 +99,15 @@ padding-left: 60px;
   }
   nav ul{
     width: 35%;
-    height: 35vh;
+    height: 54vh;
     background: #2f3640;
-    top: 70px;
+    border-radius: 15px;
+    top: 60px;
     text-align: center;
     float: right;
     position: absolute;
     right: 0;
+    margin-right: 0px;
     display: none;
   }
   #menu{
