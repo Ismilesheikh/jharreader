@@ -21,24 +21,21 @@ label.logo{
   padding: 0 80px;
   line-height: 80px;
 }
-
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48;
-  color:white;
+.material-symbols-outlined{
   float: right;
+  color: aliceblue;
   line-height: 80px;
+  display: none;
   margin-right: 20px;
- 
+  color:#34495e ;
 }
+
+
 
 nav ul{
   float: right;
   margin-right: 30px;
+
 
 }
 
@@ -69,6 +66,17 @@ font-size: 30px;
 padding-left: 60px;
 
   }
+
+  #close1 {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    display: none;
+  }
+  
+
   nav ul{
     margin-right: 20px;}
   nav a{
@@ -76,9 +84,10 @@ padding-left: 60px;
 
 
   }
+  
 }
 
-@media (max-width:909px){
+@media (max-width:720px){
   nav #icon{
     display: block;
   }
@@ -89,15 +98,33 @@ padding-left: 60px;
     top: 70px;
     text-align: center;
     float: right;
-    margin-left: 5px;
     position: absolute;
     right: 0;
     display: none;
   }
-  .material-symbols-outlined:hover{
+  #menu{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    color:white;
+    float: right;
+    line-height: 80px;
+    margin-right: 20px;
     display: block;
-    color: #3498db;
   }
+
+#close1 {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    display: none;
+    color: antiquewhite;
+  }
+
 
 
   nav li{
@@ -155,19 +182,20 @@ border-radius: 15px;
 
 .recent{box-shadow: 2px 2px 2px 2px darkgrey;
 margin-top: 2px;
+margin-left: 5px;
+margin-right: 5px;
 border-radius: 15px;
+text-align: center;
 
 }
 
-
- .recent .R1{text-align: center;
-  box-shadow:2px 2px 2px 2px darkgrey;
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-  background:purple;
-  
+.R1{background-color: palevioletred;
+color: aqua;
+font-size: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
 }
+
   
   
 
@@ -194,32 +222,8 @@ border-radius: 15px;
   margin-left:40%;
 }
 
-.mcube{
-  margin-left: 30px;
 
 
-
-}
-.cube{width: 100px;
-  height: 100px;
-  display:inline-flex;
-  border: 2px solid darkgray;
-  box-shadow:1px 1px 1px 1px darkgrey;
-  border-radius: 100px;
-  margin-left: 25px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background: linear-gradient(to left,purple,green,yellow);
-
-}
-
-@keyframes anim{0%{transform: rotateX(45deg); }
-  25%{transform: rotateY(-45deg);  }
-    50%{transform: rotateY(60deg); }
-    100%{transform: rotateY(-60deg);
-  
-    }
-}
 .news{box-shadow:2px 2px 2px 2px darkgrey;
 margin: 10px;
 margin-top: 100px;
