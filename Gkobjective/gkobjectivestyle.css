@@ -181,13 +181,7 @@ body {margin: 0;
   
     .class{margin-top: 250px;}
     .s{margin-top: 250px;}
-    .gkobjective .list{
-                       width: 80%;
-                       margin-left: 10%;
-                       margin-right: 10%;
-
-
-    }
+    
     
   }
 
@@ -263,4 +257,16 @@ font-family: ;
                        border-radius: 5px;
                       color: rgb(17, 99, 119);}
 
-.gkobjective ul:hover .list{display: block;}                     
+.gkobjective ul:hover .list{display: block;}  
+
+
+@media(max-width:720px){
+  .gkobjective button{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+
+}
