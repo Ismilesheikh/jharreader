@@ -1,4 +1,4 @@
-body{margin: 0;
+*{margin: 0;
 padding: 0;}
 
 
@@ -223,37 +223,48 @@ margin-bottom: 10px;}
 
 
 
-  .ex{text-align: center;
+                  .ex{text-align: center;
                       margin-top: 40px;
                       width: 96%;
                       margin-left: 2%;
                       margin-right: 2%;
                       margin-bottom: 40px;
+                      background: aquamarine;
+                      position: webkit-sticky;
+                      position: sticky;
+                      top: 0;
                     }
                     
-   .qa{width: 96%;
+                  .qa{width: 96%;
+                    margin-top: 10px;
                       box-shadow: 2px 2px 2px 2px darkgray;
                       margin-left: 2%;
                       margin-right: 2%;
-                      border-radius: 10px;
+                      border-radius: 5px;
                       font-weight: bolder;
+                      background: #12698b;
                     }
                     
                     .que{width: 94%;
                     margin-left: 3%;
                     margin-right: 3%;
                     text-align: center;
-                      
+                    color: aliceblue;
+                    font-weight: bolder;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     }
+
+                    
                     
                     .ans{box-shadow: 2px 2px 2px 2px darkgray;
                       width: 94%;
                       margin-left: 3%;
                       margin-right: 3%;
                       margin-bottom: 10px;
-                      border-radius: 10px;
+                      border-radius: 5px;
                       margin-top: 20px;
-                      background: #34495e;
+                      font-weight: bold;
+                      background: rgb(24, 99, 122);
                     }
                     
                     
@@ -265,12 +276,12 @@ margin-bottom: 10px;}
                       border: none;
                       border-radius: 5px;
                       font-size: 18px;
-                      margin-top:10px;
+                      margin-top:20px;
                       margin-bottom: 5px;
                       box-sizing: 2px 2px 2px 2px darkgray;
                       background: peru;
                       font-weight: bold;
-                      color: whitesmoke;
+                      color: rgb(18, 63, 116);
                     }
                     
                     .seen{width: 60%;
@@ -289,4 +300,9 @@ margin-bottom: 10px;}
                       background: linear-gradient(to right,orange, white,green);
                       border-radius: 10px;
                     }
+
+                    
+
+
+                  
                     
