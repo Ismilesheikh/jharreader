@@ -253,12 +253,13 @@ padding: 2px;
 font-family: ;
 }
 
+
 .gkobjective li:hover{border: 1px solid white;
                        border-radius: 5px;
                       color: rgb(17, 99, 119);}
 
 .gkobjective ul:hover .list{display: block;}  
-
+.list a{text-decoration: none;}
 
 @media(max-width:720px){
   .gkobjective button{
