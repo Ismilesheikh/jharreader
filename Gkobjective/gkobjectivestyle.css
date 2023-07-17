@@ -228,32 +228,34 @@ margin-bottom: 28px;
              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
              text-decoration: underline rgb(148, 230, 72);
               }
-
- .gkobjective .list{position:absolute;
-  display: none;
-width: 50%;
+.gkobjective .list{position:absolute;
+display: none;
+width: 45%;
 margin-top: 0px;
 float: right;
 right:0;
-margin-right: 20px;
+margin-right:25px;
 background: linear-gradient(to left,green,violet,yellow);
 border-radius: 10px;
 box-shadow: 2px 2px 2px 2px darkgray;
 color: aliceblue;
 text-align: center;}
 
-.gkobjective li{margin: 10px;
+.gkobjective li{margin: 5px;}
+
+.gkobjective .list a{margin: 10px;
 text-decoration: none;
 list-style: none;
 font-size: 25px;
 font-weight: bold;
 text-align: center;
 padding: 2px;
+margin: 5px;
 font-family: 'Times New Roman', Times, serif;
 }
 
 
-.gkobjective li:hover{border: 1px solid white;
+.gkobjective .list a:hover{border: 1px solid white;
                        border-radius: 5px;
                       color: rgb(17, 99, 119);}
 
