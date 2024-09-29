@@ -1,0 +1,45 @@
+body{padding: 0;
+margin: 0;
+  
+}
+
+
+
+
+.sub{box-shadow: 2px 2px 2px 2px darkgrey;
+text-align: center;
+border-radius: 10px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+}
+
+
+.s{box-shadow: 1px 1px 1px 1px darkgray;
+text-align: center;
+border-radius: 10px;
+  font-size: 35px;
+  background: rgb(195, 241, 107);
+  color: white;
+  margin-top: 10px;
+  font-weight: bolder;
+ 
+}
+
+.sub button{width:90%;
+  margin:5%;
+  height: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  background: aquamarine;
+  border-radius: 10px;
+  border:none;
+  box-shadow: 2px 2px 2px 2px darkgray;
+}
+
+
+.sub button:hover{background: gold;
+  margin-left:10%;
+  color: white;
+}

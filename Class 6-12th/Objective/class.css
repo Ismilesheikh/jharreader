@@ -1,0 +1,85 @@
+body{margin: 0;
+}
+
+
+.class{font-size: 25px;
+font-weight: bolder;
+color: rgb(255, 100, 234);}
+
+.toolbar{display:flex;
+ width: 100%;
+ background: linear-gradient(orange,white,green);
+ position: -webkit-sticky;
+ position: sticky;
+ top:0;
+}
+
+
+.tool{
+text-align: center;
+width: 100%;
+margin: 5px;
+
+  
+  
+}
+.toolbar button{background: darkcyan;
+margin:2px;
+border-radius: 10px;
+font-weight: bold;
+color: white;
+height:  30px;
+font-size: 20px;
+ 
+}
+
+
+
+.mc{display:none;
+border: 2px solid blue;
+border-radius: 10px;
+margin-top: 40px;
+background:aqua;}
+
+  
+
+.m:hover .mc{display: block;}
+.mc1{
+  
+}
+
+.mc1 p{border:1px solid blue;
+  margin: 5px;
+  box-shadow: 1px 1px 1px 1px darkgrey;
+  border-radius: 5px;
+}
+
+.mc1 p:hover{background: orangered;}
+
+.class{margin-top: 100px;
+margin-left: 5%;
+margin-right: 5%;
+border: 2px solid darkgrey;
+width:90%;
+border-radius: 10px;
+text-align: center;
+box-shadow: 3px 3px 3px 3px darkgrey;
+  
+}
+
+.class button{margin-top: 25px;
+  width: 90%;
+  height: 100px;
+  margin:20Px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  background: rebeccapurple;
+  color: whitesmoke;
+  border: none;
+}
+
+.class button:hover{background: deepskyblue;
+  color: rebeccapurple;
+  margin-left: 10%;
+}

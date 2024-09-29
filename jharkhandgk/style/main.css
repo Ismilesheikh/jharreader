@@ -1,0 +1,134 @@
+*{margin: 0;
+padding: 0;}
+
+nav{background: rgb(88, 87, 86);
+width: 100%;
+line-height: 60px;
+height: 60px;}
+
+label.logo{color: white;
+margin-left: 40px;}
+.ch{background: linear-gradient(to left, gold,red,lightgreen,purple);}
+.ch1{
+    text-align: center;
+    background: rebeccapurple;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.ch button{width: 80%;
+    height: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: rgb(11, 155, 155);
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 2px 2px 2px darkgray;
+   
+    
+}
+.ch button:hover{margin-left: 15%;}
+.ch a button{text-decoration: none;
+    font-weight: bold;
+    color: beige;}
+
+    @media (min-width:647px){
+
+.ch button{width: 50%;
+    height: 70px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 35px;
+    background: rgb(193, 82, 226);
+    font-size: 20px;
+   
+    
+}
+
+
+    }
+.q{margin-left: 10px;
+font-size: 18px;
+font-family: serif;
+font-weight: bold;}
+
+    .qa{box-shadow: 2px 2px 2px 2px darkgray;
+        top: 10px;
+        margin-top: 30px;
+        margin-right: 5%;
+        margin-left:5%;
+        width: 90%;
+        border-radius:2%;
+    }
+
+    .a button{width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px darkgrey;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+button.ans{width: 50%;
+margin-left: 48%;}
+
+@media (min-width:600px){
+    .qa{box-shadow: 2px 2px 2px 2px darkgray;
+        top: 10px;
+        margin-top: 30px;
+        margin-right: 10%;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .ch button:hover{margin-left: 30%;}
+
+}
+
+
+b{color: rgb(199, 230, 23);
+font-size: 15px;
+display:inline-flex;
+margin-left: 10px;}
+c{color: rgb(7, 8, 7);
+font-size: 15px;
+display: inline-flex;
+margin-left: 10px;}
+
+
+po{display: none;
+color: darkgray;
+opacity: 70%;
+position: absolute;
+margin-left: 0;
+}
+
+b:hover po{display:flex;
+    margin: 16px;
+    
+
+}
+
+
+
+
+ar{display: none;
+color: darkgray;
+size: 10px;
+position: absolute;
+right: 100;}
+
+c:hover ar{display: flex;
+margin-top: 16px;}

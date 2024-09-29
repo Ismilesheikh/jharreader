@@ -1,0 +1,76 @@
+
+
+
+.model{text-align: center;
+    margin-bottom:20px;
+    margin-top: 20px;
+    border:2px solid darkgrey;
+    box-shadow: 2px 2px 2px 2px darkgrey;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px; }
+    
+    .m1{font-size: 30px;
+      font-weight: bold;
+      color: goldenrod;
+      margin: 5px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 1px 1px darkolivegreen;
+    }
+    
+    .m2{margin-top: 10px;
+      font-size: 25px;
+      margin-bottom: 10px;
+      background: linear-gradient(red,white,green);
+      border-radius: 15px;
+      border: none;
+      box-shadow: 2px 2px 2px 2px darkgrey;
+      width: 90%;
+      height: 80px;
+      font-size: 30px;
+      font-weight: bolder;
+    }
+    .m2:hover{  background: linear-gradient(to right,red,white,green);
+    color: white;
+    margin-left:5%;
+      
+    }
+
+
+    .models{text-align: center;
+    font-size: 25px;
+    font-weight:bolder;
+    background: coral;
+    position: sticky;
+    top: 0;
+    color: azure;
+    box-shadow: 2px 2px 2px 2px grey;
+
+     }
+
+     
+.model1{margin-top: 10px;
+        text-align: center;
+      box-shadow: 2px 2px 2px 2px darkgray;}
+
+table{width: 100%;
+  border-radius: 20px;
+margin-bottom: 10px;}
+
+.myear{font-size: 30px;
+font-weight: bolder;
+color: azure;
+background-color: aqua;}
+  td{box-shadow: 1px 1px 1px 1px darkgray;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+    
+  tr{margin-right: 2%;
+    width: 96%;
+  margin-right: 2%;}
+
+  .fake{height: 10px;}
+    
