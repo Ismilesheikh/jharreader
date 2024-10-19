@@ -1,9 +1,14 @@
 body{margin: 0;
-}
+  background: linear-gradient(90deg, hsla(270, 94%, 25%, 1) 0%, hsla(158, 94%, 49%, 1) 100%);
+ }
 
 
 .class{font-size: 35px;
 font-weight: bolder;
+background: -webkit-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(178, 44%, 32%, 1) 100%);
+  
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF1B6B", endColorstr="#2E7775", GradientType=1 );
+ 
 color: rgb(238, 44, 212);
 text-shadow: 1px 1px 1px 1px  rgb(128, 124, 120);}
 
@@ -75,14 +80,15 @@ box-shadow: 3px 3px 3px 3px darkgrey;
   border-radius: 10px;
   font-size: 25px;
   font-weight: bold;
-  background: goldenrod;
-  color: whitesmoke;
+  background: -webkit-linear-gradient(120deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  color: rgb(238, 61, 185);
   border: none;
 }
 
-.class button:hover{background: deepskyblue;
+.class button:hover{background: linear-gradient(90deg, hsla(0, 0%, 37%, 1) 0%, hsla(59, 30%, 49%, 1) 100%);
+
   width: 80%;
-  color: rgb(34, 8, 59);
+  color: rgb(245, 242, 248);
   margin-left: 10%;
   margin-right: 10%;
 }
