@@ -1,0 +1,50 @@
+[
+    {
+"ant_title" :[
+"kitna Aakele hai  ",
+"hum tere bina",
+"par kya hua hai",
+"Dil se dua hai",
+"title1",
+"title2"
+],
+
+"ant_content" :[["first con","second con", "third con", "fourth con", "fifth con", "sixth con"],
+["first con","second con", "third con", "fourth con", "fifth con", "sixth con"],
+["first con","second con", "third con", "fourth con", "fifth con", "sixth con"],
+["first con","second con", "third con", "fourth con", "fifth con", "sixth con"],
+["first con","second con", "third con", "fourth con", "fifth con", "sixth con"],
+["first con","second con", "third con", "fourth con", "fifth con", "sixth con"]
+],
+"ant_link": [
+"https://www.gooogle.com",
+"https://www.gooogle.com",
+"https://www.gooogle.com",
+"https://www.gooogle.com",
+ "https://www.gooogle.com",
+ ""
+],
+
+"med_title":["che 1"],
+"med_content" :[["first con","second con", "third con", "fourth con", "fifth con", "sixth con"],
+["first con","second con", "third con", "fourth con", "fifth con", "sixth con"],
+["first con","second con", "third con", "fourth con", "fifth con", "sixth con"],
+["first con","second con", "third con", "fourth con", "fifth con", "sixth con"],
+["first con","second con", "third con", "fourth con", "fifth con", "sixth con"],
+["first con","second con", "third con", "fourth con", "fifth con", "sixth con"]
+],
+"med_link":[""],
+
+"mod_title":["Bio 1","Bio 2"],
+"mod_content" :[["first con","second con", "third con", "fourth con", "fifth con", "sixth con"],
+["first con","second con", "third con", "fourth con", "fifth con", "sixth con"],
+["first con","second con", "third con", "fourth con", "fifth con", "sixth con"],
+["first con","second con", "third con", "fourth con", "fifth con", "sixth con"],
+["first con","second con", "third con", "fourth con", "fifth con", "sixth con"],
+["first con","second con", "third con", "fourth con", "fifth con", "sixth con"]
+],
+"mod_link":["",""]
+
+}
+
+]
