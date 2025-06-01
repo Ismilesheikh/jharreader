@@ -85,12 +85,12 @@
 ],
 
 "chapter":[
-[["chapter1","chapter2","banner_ad"],["chapter3","native_ad"]],
+[["chapter1","chapter2","banner_ad"],["chapter3","native_ad","chapter4"]],
 [["chapter4","chapter5"],["chapter6"]],
 [["रसायनिक समीकरण","","","","","","","8.Chapter","chapter9","chapter10"],["chapter9"]]
 
 ],
-"chapter_pdf_url":[[[]],
+"chapter_pdf_url":[[[],[]],
 [[]],
 [[]]
   ],
