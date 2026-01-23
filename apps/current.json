@@ -1,0 +1,56 @@
+[
+  {"years":"2025",
+      "months": "January",
+      "link":"https://ismilesheikh.github.io/GK_OBJECTIVE/apps/current_affairs/2025/january.json",
+      "massageLink":"https://ismilesheikh.github.io/GK_OBJECTIVE/apps/massage1.json",
+      "title" :[  
+"",
+""
+],
+"subtitle":[
+"19/07/2024",
+""
+],
+
+   "content": [[{"type":"heading","heading":"","left":"","right":""},{"type":"text","data":""},{"type":"image","url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK4wtc4kvcLUgZPm2Htp0OIflafhL0prueanE-mFlth2P1MiQznTZFyjjN&s=10"}],[]]
+
+    },
+
+  {"years":"2025",
+      "months": "July",
+      "link":"https://ismilesheikh.github.io/GK_OBJECTIVE/apps/current_affairs/2025/july.json",
+      "massageLink":"https://ismilesheikh.github.io/GK_OBJECTIVE/apps/massage1.json",
+      "title" :[
+" भारत और सिंगापुर के बीच 32 वे सिन्बेक्स अभ्यास",
+""
+],
+"subtitle":[
+"19/07/2024",
+""
+
+],
+
+   "content": [[{"type":"heading","heading":"भारत और सिंगापुर के बीच 32 वे सिन्बेक्स अभ्यास","left":"","right":"19/07/2025"},{"type":"text","data":"भारतीय नेवी सिंगापूर मे आयोजित 32 वे समूद्री द्विपक्षीय अभ्यास  सिनबेक्स मे हिस्सा लेगा। "},{"type":"image","url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK4wtc4kvcLUgZPm2Htp0OIflafhL0prueanE-mFlth2P1MiQznTZFyjjN&s=10"}],[]]
+
+    },
+    
+     {"years":"2025",
+      "months": "Important",
+      "massageLink":"https://ismilesheikh.github.io/GK_OBJECTIVE/apps/massage1.json",
+      "link":"https://script.google.com/macros/s/AKfycbye2qyDB-bzdd3iK0K08MwRX-g8TtW3vQ6Ms-ADqaVIpcuwudkL3pS3MLslSf8auNGw/exec",
+      "title" :[
+"kitna Aakele hai ",
+""
+],
+"subtitle":["sub1",
+"sub2"],
+  "content": [[ {"type":"text","data":"this is test2 text"}]]
+
+    }
+
+
+  
+    
+   
+   
+  ]

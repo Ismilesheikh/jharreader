@@ -1,0 +1,46 @@
+[
+    {"years":"2025",
+    "banner":"5",
+    "native":"10",
+      "tabs": "Jobs",
+      "title" :[
+""
+
+],
+      "links": [
+"https://ismilesheikh.github.io/GK_OBJECTIVE/apps/jobs/test.json",
+"",
+"",
+"",
+       "",
+       ""
+]
+
+    },
+
+  {"tabs":"Admits",
+"title":[""],
+"links":[""]
+    },
+
+
+  {"tabs":"Results",
+"title":[""],
+"links":[""]
+
+  },
+    
+   
+
+
+
+{"tabs":"syllabus",
+"title":[""],
+"links":[""]
+},
+{"tabs":"Others",
+"title":[""],
+"links":[""]
+}
+   
+  ]

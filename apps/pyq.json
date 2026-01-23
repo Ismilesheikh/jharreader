@@ -1,0 +1,21 @@
+[
+  {
+  "name": "BPSC",
+  "imageUrl": "https://example.com/exam.png",     
+  "years": [
+    {
+      "year": 2024,
+      "exams": [
+        { "name": "Paper 1", "imageUrl": "https://example.com/paper4.png","pdfUrl": "https://drive.google.com/uc?export=download&id=1WxzAlWjqyR91sqWRPfRinMm7q7MKhKEk" },
+        { "name": "Paper 2", "imageUrl": "https://example.com/paper2.png","pdfUrl": "https://drive.google.com/uc?export=download&id=1WxzAlWjqyR91sqWRPfRinMm7q7MKhKEk" }
+      ]
+    },
+    {
+      "year": 2023,
+      "exams": [
+        { "name": "Paper 1", "imageUrl": "https://example.com/paper1.png","pdfUrl": "https://drive.google.com/uc?export=download&id=1WxzAlWjqyR91sqWRPfRinMm7q7MKhKEk" }
+      ]
+    }
+  ]
+}
+]
