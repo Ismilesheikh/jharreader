@@ -4,7 +4,7 @@
 "data":"8 का Exam Timetable"
 },
 {"type":"table",
-"header":["Date","Subject"],
+"header":["Date","Fast Session","Second Session"],
 "rows":[["24/02/2026","Science,Social Science, Mathematics","Hindi,Bengali"]]
 },
 {"type":"native_ads"},
