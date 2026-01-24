@@ -3,7 +3,7 @@
    "native":["12","13"],
     "update":["8वी 9 वी का Timetable जारी "],
   "screen":["job",""],
-  "content":[[{"type":"heading"," 8वी 9 वी का Timetable":"test heading","left":"-","right":""},{"type": "text", "data": " 8वी का Timetable 2026"}],[]],
+  "content":[[{"type":"heading","data":"test heading","left":"-","right":""},{"type": "text", "data": " 8वी का Timetable 2026"}],[]],
 "link":[""]
 }
 
