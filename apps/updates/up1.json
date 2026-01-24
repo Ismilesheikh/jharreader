@@ -5,7 +5,8 @@
 },
 {"type":"table",
 "header":["Date","Subject"],
-"rows":["24/02/2026","Science,Social Science, Mathematics"]},
+"rows":[["24/02/2026","Science,Social Science, Mathematics","Hindi,Bengali"]]
+},
 {"type":"native_ads"},
 {
 "type": "text",
