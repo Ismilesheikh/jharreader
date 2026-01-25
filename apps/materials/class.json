@@ -14,7 +14,7 @@
 ],
 
 "chapter":[
-[["","chapter2","","विद्युत धारा का रासायनिक प्रभाव"],["chapter3"]],
+[["","chapter2","","विद्युत धारा का रासायनिक प्रभाव","",""],["chapter3"]],
 [["chapter4","chapter5"],["chapter6"]],
 [["","अम्ल क्षारक एवं लवण","धातु एवं अधातु","..4","..5","नियंत्रण एंव समन्वय","जीव जनन कैसे करते है।","आनुवंशिकता एवं जैव विकास","प्रकाश : परावर्तन तथा अपवर्तन","chapter 10"],["chapter1"]]
 ],
@@ -22,7 +22,10 @@
   [["https://ismilesheikh.github.io/jharreader/apps/materials/eight/objective/science/sci1.json",
   "https://ismilesheikh.github.io/jharreader/apps/materials/eight/objective/science/sci2.json",
   "https://ismilesheikh.github.io/jharreader/apps/materials/eight/objective/science/sci3.json",
-  "https://ismilesheikh.github.io/jharreader/apps/materials/eight/objective/science/sci4.json"],
+  "https://ismilesheikh.github.io/jharreader/apps/materials/eight/objective/science/sci4.json",
+  "https://ismilesheikh.github.io/jharreader/apps/materials/eight/objective/science/sci5.json",
+  "https://ismilesheikh.github.io/jharreader/apps/materials/eight/objective/science/sci6.json"
+  ],
   [""] ],
 [["",""],[""]],
 [
