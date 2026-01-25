@@ -13,7 +13,7 @@
 {
 "type": "table",
 "headers":["Date","1st half","2nd half"],
-"rows":[["24/02/2026","Science,Social Science, Mathematics","Hindi,Bengali"]]
+"rows":[["24/02/2026"," विज्ञान,\n समाजिक विज्ञान,\n गणित","Hindi,Bengali"]]
 },
 {
 "type": "text",
