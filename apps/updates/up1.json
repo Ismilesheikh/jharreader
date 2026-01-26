@@ -1,16 +1,9 @@
 [{"type":"heading","heading":" JAC ने 8वीं से 12 वीं तक की Exam Timetable 2026 जारी कर दिया है","left":"","right":""},
+{"type": "divider"}
 {
 "type": "h1",
 "data":"8 का Exam Timetable"
 },
-{"type":"native_ads"},
-{
-"type": "text",
-"data":"this is a second test",
-"url":"https://ismilesheikh.github.io/jharreader/apps/updates/up1.json"
-},
-{"type":"banner_ads"},
-{"type": "divider"},
 {
 "type": "table",
 "title":"JAC 8th Exam Timetable 2026",
@@ -20,7 +13,7 @@
 {"type":"image","url":"https://ismilesheikh.github.io/jharreader/apps/updates/image/jac8timetable2026.jpg"},
 {"type": "divider"},
 {
-"type": "text",
+"type": "h1",
 "data":"Jac 9th Exam Timetable"
 },
 {"type":"banner_ads"},
@@ -32,17 +25,17 @@
 },
 {"type":"image","url":"https://ismilesheikh.github.io/jharreader/apps/updates/image/jac9timetable2026.jpg"},
 {"type": "divider"},
-{"type": "text",
+{"type": "h1",
 "data":"Jac 10th Exam Timetable"
 },
 {"type":"image","url":"https://ismilesheikh.github.io/jharreader/apps/updates/image/jac10_12timetable2026.jpg"},
 {"type": "divider"},
-{"type": "text",
+{"type": "h1",
 "data":"Jac 11th Exam Timetable"
 },
 {"type":"image","url":"https://ismilesheikh.github.io/jharreader/apps/updates/image/jac11timetable2026.jpg"},
 {"type": "divider"},
-{"type": "text",
+{"type": "h1",
 "data":"Jac 12th Exam Timetable"
 },
 {"type":"image","url":"https://ismilesheikh.github.io/jharreader/apps/updates/image/jac10_12timetable2026.jpg"},
