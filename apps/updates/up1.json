@@ -10,14 +10,44 @@
 "url":"https://ismilesheikh.github.io/jharreader/apps/updates/up1.json"
 },
 {"type":"banner_ads"},
+{"type": "divider"},
 {
 "type": "table",
+"title":"JAC 8th Exam Timetable 2026",
 "headers":["Date","1st half","2nd half"],
 "rows":[["24/02/2026"," विज्ञान,\n समाजिक विज्ञान,\n गणित","Hindi,Bengali"]]
 },
+{"type":"image","url":"https://ismilesheikh.github.io/jharreader/apps/updates/image/jac8timetable2026.jpg"},
+{"type": "divider"},
 {
 "type": "text",
-"data":"this is a third test",
+"data":"Jac 9th Exam Timetable"
+},
+{"type":"banner_ads"},
+{
+"type": "table",
+"title":"JAC 9th Exam Timetable 2026",
+"headers":["Date","1st half","2nd half"],
+"rows":[["24/02/2026"," विज्ञान,\n समाजिक विज्ञान,\n गणित","Hindi,Bengali"]]
+},
+{"type":"image","url":"https://ismilesheikh.github.io/jharreader/apps/updates/image/jac9timetable2026.jpg"},
+{"type": "divider"},
+{"type": "text",
+"data":"Jac 10th Exam Timetable"
+},
+{"type":"image","url":"https://ismilesheikh.github.io/jharreader/apps/updates/image/jac10_12timetable2026.jpg"},
+{"type": "divider"},
+{"type": "text",
+"data":"Jac 11th Exam Timetable"
+},
+{"type":"image","url":"https://ismilesheikh.github.io/jharreader/apps/updates/image/jac11timetable2026.jpg"},
+{"type": "divider"},
+{"type": "text",
+"data":"Jac 12th Exam Timetable"
+},
+{"type":"image","url":"https://ismilesheikh.github.io/jharreader/apps/updates/image/jac10_12timetable2026.jpg"},
+
+{
 "url":"https://ismilesheikh.github.io/jharreader/apps/updates/up1.json"
 }
 
