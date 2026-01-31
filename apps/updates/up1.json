@@ -17,12 +17,6 @@
 "data":"Jac 9th Exam Timetable 2026"
 },
 {"type":"banner_ads"},
-{
-"type": "table",
-"title":"JAC 9th Exam Timetable 2026",
-"headers":["Date","1st half","2nd half"],
-"rows":[["24/02/2026"," विज्ञान,\n समाजिक विज्ञान,\n गणित","Hindi,Bengali"]]
-},
 {"type":"image","url":"https://ismilesheikh.github.io/jharreader/apps/updates/image/jac9timetable2026.jpg"},
 {"type": "divider"},
 {"type": "h1",
