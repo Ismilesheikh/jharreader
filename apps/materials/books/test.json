@@ -43,25 +43,27 @@
     {
       "tabs": "Subjective",
       "title" :[
+"Class-VII",
 "Class-VIII",
 "Class-IX",
 "Class-X"
 ],
      
-"subject": [["English","Hindi"],
+"subject": [["Science","Geography"],["English","Hindi"],
 ["Maths","Science"],
 ["Science","Social Science"]
 
 ],
 
 "chapter":[
+[[" पौधों मे पोषण"],[""]],
 [["chapter1","chapter2"],["chapter3"]],
 [["chapter4","chapter5"],["chapter6"]],
 [["रसायनिक समीकरण","","","","","","","8.Chapter","chapter9","chapter10"],["chapter9"]]
 
 ],
 
-"link":[
+"link":[[[""],[""]],
   [["https://www....",""],[""]],
   [["",""],[""]],
   [["https://script.google.com/macros/s/AKfycbzW2r9QbSVXk36SLYy9ti7pt9dEYfjQzT460XrG9Z4c8vuLFyTIpjvsPj52QGQgn-n2/exec","","","","","","","https://script.google.com/macros/s/AKfycbzW2r9QbSVXk36SLYy9ti7pt9dEYfjQzT460XrG9Z4c8vuLFyTIpjvsPj52QGQgn-n2/exec"],[""]]
@@ -73,26 +75,34 @@
     {
       "tabs": "Books",
       "title" :[
+"Class-VII",
 "Class-VIII",
 "Class-IX",
 "Class-X"
 ],
      
-"subject": [["English","Hindi"],
+"subject": [
+["Science"],
+["English","Hindi"],
 ["Maths","Science"],
 ["Science","Social Science"]
 
 ],
 
 "chapter":[
+[[" पौधों में पोषण"]]
 [["chapter1","chapter2","banner_ad"],["chapter3","native_ad","chapter4"]],
 [["chapter4","chapter5"],["chapter6"]],
 [["रसायनिक समीकरण","","","","","","","8.Chapter","chapter9","chapter10"],["chapter9"]]
 
 ],
- "subject_pdf_url":[["",""],[],[]],
+ "subject_pdf_url":[
+[""],
+["",""],[],[]],
 
-"chapter_pdf_url":[[["https://drive.google.com/uc?export=download&id=1WxzAlWjqyR91sqWRPfRinMm7q7MKhKEk","https://drive.google.com/uc?export=download&id=1WxzAlWjqyR91sqWRPfRinMm7q7MKhKEk",""],["https://drive.google.com/uc?export=download&id=1WxzAlWjqyR91sqWRPfRinMm7q7MKhKEk","","https://drive.google.com/uc?export=download&id=1WxzAlWjqyR91sqWRPfRinMm7q7MKhKEk"]],
+"chapter_pdf_url":[
+
+[["https://drive.google.com/uc?export=download&id=1WxzAlWjqyR91sqWRPfRinMm7q7MKhKEk","https://drive.google.com/uc?export=download&id=1WxzAlWjqyR91sqWRPfRinMm7q7MKhKEk",""],["https://drive.google.com/uc?export=download&id=1WxzAlWjqyR91sqWRPfRinMm7q7MKhKEk","","https://drive.google.com/uc?export=download&id=1WxzAlWjqyR91sqWRPfRinMm7q7MKhKEk"]],
 [[]],
 [[]]
   ],
