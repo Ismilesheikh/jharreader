@@ -3,10 +3,10 @@
     "banner":"5",
     "native":"10",
       "tabs": "News",
-      "title" :[
+      "title" :["JAC Published JH Tet Notifications",
 "JAC Publiced Exam Timetable 2026 for Class 8th to 12th"
 ],
-      "links": [
+      "links": ["https://ismilesheikh.github.io/jharreader/apps/updates/jhtet.json",
 "https://ismilesheikh.github.io/jharreader/apps/updates/up1.json"
 ]
 
@@ -29,7 +29,7 @@
 
 
 {"tabs":"Syllabus",
-"title":[""],
+"title":["JH Tet Syllabus"],
 "links":[""]
 },
 {"tabs":"Model Question Papers",
