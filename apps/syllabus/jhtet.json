@@ -1,10 +1,10 @@
-[{"type":"text","data":"Click for Syllabus"},
+[{"type":"text","data":"JAC has published the syllabus for JHTET.\Click below for Syllabus."},
 {"type":"link","data":"https://ismilesheikh.github.io/jharreader/apps/updates/up1.json"},
 {
   "type": "table",
   "headers": ["Action", "👇"],
   "rows": [
-    ["JHTET 2026 Result", "https://jac.jharkhand.gov.in/"]
+    ["JHTET 2026 Result", "https://jacexamportal.in/web_notice/2026_JHTET_SYLLABUS.pdf"]
   ]
 }
 ]
