@@ -1,3 +1,10 @@
 [{"type":"text","data":"Click for Syllabus"},
-{"type":"link","data":"https://ismilesheikh.github.io/jharreader/apps/updates/up1.json"}
+{"type":"link","data":"https://ismilesheikh.github.io/jharreader/apps/updates/up1.json"},
+{
+  "type": "table",
+  "headers": ["Action", "Result"],
+  "rows": [
+    ["JHTET 2026 Result", "https://jac.jharkhand.gov.in/"]
+  ]
+}
 ]
