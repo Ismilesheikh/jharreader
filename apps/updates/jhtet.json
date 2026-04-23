@@ -58,7 +58,7 @@
     "type": "table",
     "headers": ["Action", "Link"],
     "rows": [
-      ["Wait for Apply Online", ""],
+      ["Apply Online", "https://jactetonline.com/"],
       ["Download Syllabus", "https://jacexamportal.in/web_notice/2026_JHTET_SYLLABUS.pdf"],
       ["Download Notification", "https://jacexamportal.in/web_notice/2026_JHTET_NOTIFICATION.pdf"],
       ["Download Advertisement", "https://jacexamportal.in/web_notice/2026_JHTET_PRESS_ADV.pdf"]
