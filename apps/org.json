@@ -94,9 +94,10 @@
 
     "link": [
       "https://ismilesheikh.github.io/jharreader/apps/organization/opec_hindi.json",
-      "",
-      "",
-      "",
+     
+    "https://ismilesheikh.github.io/jharreader/apps/organization/who.json",
+      "https://ismilesheikh.github.io/jharreader/apps/organization/imf.json",
+      "https://ismilesheikh.github.io/jharreader/apps/organization/who_hindi.json",
       "https://ismilesheikh.github.io/jharreader/apps/organization/un_hindi.json",
       "",
       "",
