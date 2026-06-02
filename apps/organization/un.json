@@ -1,0 +1,71 @@
+[
+  {
+    "type": "heading",
+    "heading": "United Nations (UN)",
+    "left": "International Organization",
+    "right": "Established: 24 October 1945"
+  },
+
+  {
+    "type": "text",
+    "data": "The United Nations (UN) is an international organization established after World War II to promote peace, security, cooperation and friendly relations among nations. It is the largest intergovernmental organization in the world.",
+    "url": ""
+  },
+
+  {
+    "type": "table",
+    "headers": ["Field", "Details"],
+    "rows": [
+      ["Full Name", "United Nations"],
+      ["Abbreviation", "UN"],
+      ["Established", "24 October 1945"],
+      ["Headquarters", "New York City, USA"],
+      ["Secretary-General", "António Guterres"],
+      ["Members", "193 Countries"],
+      ["Official Languages", "Arabic, Chinese, English, French, Russian, Spanish"]
+    ]
+  },
+
+  {
+    "type": "text",
+    "data": "Main Objectives:\n• Maintain international peace and security\n• Develop friendly relations among nations\n• Promote human rights\n• Support sustainable development\n• Provide humanitarian assistance",
+    "url": ""
+  },
+
+  {
+    "type": "table",
+    "headers": ["Principal Organs", "Function"],
+    "rows": [
+      ["General Assembly", "Main deliberative body"],
+      ["Security Council", "Peace and security"],
+      ["Economic and Social Council", "Economic and social cooperation"],
+      ["International Court of Justice", "Judicial organ"],
+      ["Secretariat", "Administrative organ"],
+      ["Trusteeship Council", "Inactive since 1994"]
+    ]
+  },
+
+  {
+    "type": "text",
+    "data": "Important UN Agencies:\n• WHO\n• UNESCO\n• UNICEF\n• FAO\n• ILO\n• IMF\n• World Bank\n• UNDP\n• UNEP\n• WFP",
+    "url": ""
+  },
+
+  {
+    "type": "text",
+    "data": "Exam Points:\n• Founded after World War II.\n• UN Day: 24 October.\n• Security Council has 15 members.\n• Permanent Members (P5): USA, UK, France, Russia, China.\n• Headquarters: New York.",
+    "url": ""
+  },
+
+  {
+    "type": "native_ads"
+  },
+
+  {
+    "type": "table",
+    "headers": ["Resource", "Link"],
+    "rows": [
+      ["Official Website", "https://www.un.org/"]
+    ]
+  }
+]
