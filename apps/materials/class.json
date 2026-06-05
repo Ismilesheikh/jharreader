@@ -82,19 +82,19 @@
 "Class-IX",
 "Class-X"
 ],
-"subject": [["English","Hindi"],
+"subject": [["English","History"],
 ["Maths","Science"],
 ["Science","Social Science"]
 ],
 "chapter":[
-[["chapter1","chapter2"],["chapter3"]],
+[["chapter1","chapter2"],["Chapter 1"]],
 [["chapter4","chapter5"],["chapter6"]],
 [["रसायनिक समीकरण","Part2","","","","","","8.Chapter","chapter9","chapter10"],["chapter9"]]
 
 ],
 
 "link":[
-  [["https://www....",""],[""]],
+  [["https://www....",""],["https://ismilesheikh.github.io/jharreader/apps/materials/eight/subjective/history/his1.json"]],
   [["",""],[""]],
   [["https://ismilesheikh.github.io/jharreader/apps/materials/10th/subjective/science/sci1.json","","","","","","","https://ismilesheikh.github.io/jharreader/apps/materials/10th/subjective/science/sci1.json"],[""]]
   
