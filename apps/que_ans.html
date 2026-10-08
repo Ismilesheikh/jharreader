@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Questions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<style>
+  :root{
+    --pool:#E0F7FA;
+    --deep:#006064;
+    --teal:#009688;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--pool);font-family:'Roboto',system-ui,sans-serif;color:var(--deep)}
+  .appbar{position:sticky;top:0;z-index:10;background:var(--pool);display:flex;align-items:center;gap:8px;padding:8px 12px;max-width:820px;margin:0 auto}
+  .appbar button{background:none;border:0;cursor:pointer;color:var(--deep);padding:8px;border-radius:50%;display:flex}
+  .appbar button:hover{background:rgba(0,96,100,.08)}
+  .appbar h1{font-size:20px;font-weight:700;margin:0;color:var(--deep)}
+  main{max-width:820px;margin:0 auto;padding:16px}
+  .center{text-align:center;padding:60px 20px;color:#777}
+  .error{color:#d32f2f}
+  .spinner{width:36px;height:36px;border:4px solid rgba(0,96,100,.2);border-top-color:var(--deep);border-radius:50%;margin:0 auto;animation:spin 1s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .retry{margin-top:16px;background:var(--deep);color:#fff;border:0;border-radius:8px;padding:10px 20px;font-size:14px;cursor:pointer}
+
+  .card{background:var(--pool);border-radius:24px;padding:20px;margin-bottom:24px;
+        box-shadow:-8px -8px 12px #fff, 8px 8px 12px rgba(0,96,100,.15)}
+  .q{font-size:18px}
+  .ln{line-height:1.4;min-height:1.4em;overflow-wrap:anywhere}
+  .t15{font-size:15px}.t14{font-size:14px}.t13{font-size:13px}
+  .pic{display:block;width:100%;height:auto;border-radius:16px;margin-top:16px;object-fit:contain}
+
+  .section{text-align:center;padding:20px 16px}
+  .section h2{margin:0;font-size:18px;font-weight:900;letter-spacing:1.5px;text-transform:uppercase}
+  .section .bar{height:3px;width:80px;margin:10px auto 0;border-radius:2px;
+        background:linear-gradient(90deg,rgba(0,96,100,.01),rgba(0,96,100,.5),rgba(0,96,100,.01))}
+
+  .answer{margin-top:10px;padding:16px;border-radius:16px;background:rgba(0,96,100,.05);border:1px solid rgba(0,96,100,.1)}
+  .answer.plain{background:none;border:0;border-radius:0}
+  .answer .lbl{font-weight:700;color:var(--teal);margin-bottom:4px}
+
+  .tbl-wrap{margin-top:8px;border-radius:16px;overflow:auto;border:1.2px solid rgba(0,96,100,.25)}
+  table{border-collapse:collapse;width:100%}
+  th,td{padding:10px 12px;text-align:left;vertical-align:middle;border:1px solid rgba(0,96,100,.12)}
+  th{background:var(--deep);color:#fff;font-weight:800;font-size:13px;letter-spacing:.3px}
+  tr:first-child th,tr:first-child td{border-top:0}
+  th:first-child,td:first-child{border-left:0}
+  th:last-child,td:last-child{border-right:0}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:nth-child(odd) td{background:rgba(255,255,255,.75)}
+  tbody tr:nth-child(even) td{background:rgba(0,96,100,.07)}
+
+  hr{border:0;border-top:1px solid #ddd;margin:20px 0 12px}
+  .opt{display:flex;align-items:center;gap:12px;width:100%;text-align:left;font:inherit;color:var(--deep);
+       background:rgba(255,255,255,.5);border:1.5px solid #e0e0e0;border-radius:12px;padding:12px 16px;margin-bottom:10px;
+       cursor:pointer;transition:background .2s,border-color .2s}
+  .opt.ok{background:#e8f5e9;border-color:#66bb6a}
+  .opt.bad{background:#ffebee;border-color:#e57373}
+  .badge{flex:0 0 24px;width:24px;height:24px;border-radius:50%;border:1px solid #bdbdbd;display:flex;align-items:center;justify-content:center;
+         font-size:12px;font-weight:700;color:#616161}
+  .badge.noborder{border-color:transparent}
+  .badge svg{width:20px;height:20px}
+  .optText{flex:1;font-size:15px}
+
+  .actions{display:flex;justify-content:flex-end;margin-top:16px}
+  .actions button{display:flex;align-items:center;gap:6px;background:none;border:0;color:var(--deep);font:inherit;font-weight:700;
+        padding:8px 16px;border-radius:8px;cursor:pointer}
+  .actions button:hover{background:rgba(0,96,100,.08)}
+  .actions svg{width:18px;height:18px}
+
+  .expl{margin-top:12px;padding:16px;border-radius:12px;background:rgba(0,96,100,.05);border:1px solid rgba(0,96,100,.1)}
+  .expl .hd{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin-bottom:8px}
+  .expl .hd svg{width:16px;height:16px}
+</style>
+</head>
+<body>
+<div class="appbar">
+  <button id="backBtn" aria-label="Back">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15.4 5.4 14 4l-8 8 8 8 1.4-1.4L8.8 12z"/></svg>
+  </button>
+  <h1 id="title">Questions</h1>
+</div>
+<main id="root"><div class="center"><div class="spinner"></div></div></main>
+
+<script>
+/* ===========================================================
+   Usage:  que_ans_subjective.html?link=<sheet-json-url>&chapter=<n>&title=<text>
+   Same JSON format and parsing rules as QueAnsSubjective in Flutter.
+   =========================================================== */
+const params  = new URLSearchParams(location.search);
+const LINK    = params.get('link') || '';
+const CH      = parseInt(params.get('chapter') || '1', 10);
+const TITLE   = params.get('title') || 'Questions';
+
+// Table settings (same as the Dart constants)
+const FIRST_LINE_IS_HEADER = true;
+const SHOW_ROW_NUMBERS     = false;
+const SIDE_KEYS = ['sideA', 'sideB', 'sideC', 'sideD'];
+
+let questions = [];
+
+/* ---------- icons ---------- */
+const ICON = {
+  check:  '<svg viewBox="0 0 24 24" fill="#4caf50"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-2 15-5-5 1.4-1.4L10 14.2l7.6-7.6L19 8z"/></svg>',
+  cancel: '<svg viewBox="0 0 24 24" fill="#f44336"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm5 13.6L15.6 17 12 13.4 8.4 17 7 15.6 10.6 12 7 8.4 8.4 7l3.6 3.6L15.6 7 17 8.4 13.4 12z"/></svg>',
+  eye:    '<svg viewBox="0 0 24 24" fill="#4caf50"><path d="M12 4.5C7 4.5 2.7 7.6 1 12c1.7 4.4 6 7.5 11 7.5s9.3-3.1 11-7.5c-1.7-4.4-6-7.5-11-7.5zM12 17a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-8a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg>',
+  eyeOn:  '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.7 7.6 1 12c1.7 4.4 6 7.5 11 7.5s9.3-3.1 11-7.5c-1.7-4.4-6-7.5-11-7.5zM12 17a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-8a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg>',
+  eyeOff: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 7c2.8 0 5 2.2 5 5 0 .6-.1 1.1-.3 1.6l2.9 2.9c1.5-1.3 2.7-2.9 3.4-4.5-1.7-4.4-6-7.5-11-7.5-1.4 0-2.7.2-4 .7l2.2 2.2c.5-.2 1.1-.4 1.8-.4zM2 4.3l2.3 2.3C2.9 7.7 1.7 9.7 1 12c1.7 4.4 6 7.5 11 7.5 1.5 0 3-.3 4.3-.8l3 3L20.7 20 3.4 2.9 2 4.3zM7.5 9.8l1.5 1.5c0 .2-.1.5-.1.7a3 3 0 0 0 3 3c.2 0 .5 0 .7-.1l1.5 1.5c-.7.3-1.4.5-2.2.5a5 5 0 0 1-5-5c0-.8.2-1.5.6-2.1z"/></svg>',
+  bulb:   '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 21c0 .6.4 1 1 1h4c.6 0 1-.4 1-1v-1H9v1zm3-19a7 7 0 0 0-4 12.7V17c0 .6.4 1 1 1h6c.6 0 1-.4 1-1v-2.3A7 7 0 0 0 12 2zm2.9 11.1-.9.7V16h-4v-2.2l-.9-.7a5 5 0 1 1 5.8 0z"/></svg>'
+};
+
+/* ---------- helpers ---------- */
+const str = v => (v === null || v === undefined) ? '' : String(v);
+const hasValue = v => str(v).trim().length > 0;
+const esc = s => str(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+
+function texOrText(expr, display){
+  if (window.katex) {
+    try { return katex.renderToString(expr, {throwOnError:false, displayMode:false}); } catch(e){}
+  }
+  return esc(expr);
+}
+
+/* Port of buildTextOrMath: \( ... \) and \[ ... \] become math, "\n" becomes new lines */
+function renderText(text, sizeClass = ''){
+  const processed = str(text).replace(/\\n/g, '\n');
+  return processed.split('\n').map(line => {
+    const re = /\\\((.*?)\\\)|\\\[(.*?)\\\]/g;
+    let out = '', idx = 0, m;
+    while ((m = re.exec(line)) !== null) {
+      if (m.index > idx) out += esc(line.slice(idx, m.index));
+      out += texOrText(m[1] ?? m[2] ?? '');
+      idx = m.index + m[0].length;
+    }
+    if (idx < line.length) out += esc(line.slice(idx));
+    return `<div class="ln ${sizeClass}">${out}</div>`;
+  }).join('');
+}
+
+function splitLines(v){
+  const s = str(v).replace(/\\n/g, '\n').replace(/\s+$/,'');
+  return s === '' ? [] : s.split('\n').map(e => e.trim());
+}
+
+function hasTableData(t){
+  if (!t) return false;
+  for (let i = 1; i <= 4; i++) if (hasValue(t['head' + i])) return true;
+  return SIDE_KEYS.some(k => hasValue(t[k]));
+}
+
+/* Port of _buildDataTable */
+function buildTable(t){
+  const legacy = SIDE_KEYS.some(k => hasValue(t[k]));
+  const headers = [], bodies = [];
+
+  for (let c = 0; c < 4; c++) {
+    let header = '', body;
+    if (legacy) {
+      header = str(t['head' + (c + 1)]).trim();
+      body = splitLines(t[SIDE_KEYS[c]]);
+    } else {
+      const lines = splitLines(t['head' + (c + 1)]);
+      if (FIRST_LINE_IS_HEADER && lines.length) { header = lines[0]; body = lines.slice(1); }
+      else body = lines;
+    }
+    if (!header && body.length === 0) continue;
+    headers.push(header); bodies.push(body);
+  }
+  if (!headers.length) return '';
+
+  const rowCount = bodies.reduce((m, b) => Math.max(m, b.length), 0);
+  const hasHeaderRow = headers.some(h => h);
+
+  let html = '<div class="tbl-wrap"><table>';
+  if (hasHeaderRow) {
+    html += '<thead><tr>' + (SHOW_ROW_NUMBERS ? '<th style="width:38px">#</th>' : '') +
+            headers.map(h => `<th>${esc(h)}</th>`).join('') + '</tr></thead>';
+  }
+  html += '<tbody>';
+  for (let r = 0; r < rowCount; r++) {
+    html += '<tr>' + (SHOW_ROW_NUMBERS ? `<td style="opacity:.6">${r + 1}</td>` : '') +
+            bodies.map(b => `<td>${renderText(r < b.length ? b[r] : '', 't13')}</td>`).join('') + '</tr>';
+  }
+  html += '</tbody></table></div>';
+  return html;
+}
+
+const pic = url => hasValue(url) ? `<img class="pic" src="${esc(url)}" alt="" loading="lazy">` : '';
+
+/* ---------- data loading (port of fetchQuizData) ---------- */
+async function fetchQuizData(){
+  setBody('<div class="center"><div class="spinner"></div></div>');
+  try {
+    if (!LINK) throw new Error('No "link" parameter in the URL.');
+    const res = await fetch(LINK);
+    if (!res.ok) { showError('Failed to load data (Error: ' + res.status + ')'); return; }
+    const data = await res.json();
+
+    if (!(Array.isArray(data) && data.length > 2)) { showError('Invalid data format received.'); return; }
+
+    const total = parseInt(str(data[2]['Answer' + CH]), 10) || 0;
+    const items = [];
+    let qc = 0;
+
+    for (let i = 1; i <= total; i++) {
+      const qI = 2 * i + 1, aI = 2 * i + 2;
+      if (data.length <= aI) continue;
+      const Q = data[qI], A = data[aI];
+
+      const sno = str(Q['Sec'] ?? Q[''] ?? Q['Sec' + CH] ?? '').trim();
+      const isSection = sno !== '' && isNaN(Number(sno));
+      const sectionType = str(Q['Type']).trim().toLowerCase();
+
+      if (isSection) {
+        qc = 0;
+        items.push({ isSection: true, sectionTitle: sno });
+      }
+
+      const questionText = str(Q['Q' + CH]).trim();
+
+      if (questionText && sectionType !== 'objective') {
+        qc++;
+        items.push({
+          isSection: false, qNumber: qc, question: questionText,
+          sideQue: { head1: Q['A'+CH] ?? '', head2: Q['B'+CH] ?? '', head3: Q['C'+CH] ?? '', head4: Q['D'+CH] ?? '' },
+          questionPic: Q['Pic'+CH] ?? '',
+          answer: A['A'+CH] ?? '',
+          ansPic: A['Pic'+CH] ?? '',
+          sideAns: { head1: A['B'+CH] ?? '', head2: A['C'+CH] ?? '', head3: A['D'+CH] ?? '', head4: A['E'+CH] ?? '' }
+        });
+      }
+
+      if (questionText && sectionType === 'objective') {
+        qc++;
+        let correctIndex = parseInt(str(A['Answer' + CH]), 10);
+        if (isNaN(correctIndex)) correctIndex = -1;
+        if (correctIndex > 0) correctIndex--;
+        items.push({
+          isSection: false, type: 'objective', qNumber: qc, question: questionText,
+          questionPic: Q['Pic'+CH] ?? '',
+          sideQue: { head1: Q['A'+CH] ?? '', head2: Q['B'+CH] ?? '', sideA: Q['C'+CH] ?? '', sideB: Q['D'+CH] ?? '' },
+          answers: [A['A'+CH] ?? '', A['B'+CH] ?? '', A['C'+CH] ?? '', A['D'+CH] ?? '', Q['E'+CH] ?? ''],
+          explanation: A['I'+CH] ?? '',
+          correctIndex,
+          selected: null, showAnswer: false, answerRevealed: false, showExplanation: false
+        });
+      }
+    }
+
+    questions = items;
+    renderAll();
+  } catch (e) {
+    showError('An error occurred: ' + e);
+  }
+}
+
+/* ---------- rendering ---------- */
+const root = document.getElementById('root');
+function setBody(html){ root.innerHTML = html; }
+
+function showError(msg){
+  setBody(`<div class="center"><div class="error" style="font-size:48px">⚠</div>
+           <p class="error">${esc(msg)}</p>
+           <button class="retry" data-act="retry">Retry</button></div>`);
+}
+
+function renderSection(item){
+  return `<div class="section"><h2>${esc(item.sectionTitle)}</h2><div class="bar"></div></div>`;
+}
+
+function renderSubjective(item, idx){
+  const tableAns = hasTableData(item.sideAns);
+  return `<div class="card" id="q${idx}">
+    <div class="q">${renderText(' ' + item.question)}</div>
+    ${pic(item.questionPic)}
+    ${hasTableData(item.sideQue) ? buildTable(item.sideQue) : ''}
+    <div class="answer ${tableAns ? 'plain' : ''}">
+      <div class="lbl">Answer:</div>
+      <div class="t15">${renderText(item.answer, 't15')}</div>
+    </div>
+    ${pic(item.ansPic)}
+    ${tableAns ? buildTable(item.sideAns) : ''}
+  </div>`;
+}
+
+function renderObjective(item, idx){
+  const opts = item.answers.map((txt, ai) => {
+    if (!hasValue(txt)) return '';
+    const isSel = item.selected === ai;
+    const isCorrect = item.correctIndex === ai;
+    let cls = '', icon = '';
+    if (item.answerRevealed && isCorrect) { cls = 'ok'; icon = ICON.eye; }
+    else if (isSel) {
+      if (isCorrect) { cls = 'ok'; icon = ICON.check; }
+      else { cls = 'bad'; icon = ICON.cancel; }
+    }
+    const noBorder = isSel || (item.showAnswer && isCorrect);
+    return `<button class="opt ${cls}" data-act="pick" data-q="${idx}" data-a="${ai}">
+      <span class="badge ${noBorder ? 'noborder' : ''}">${icon || String.fromCharCode(65 + ai)}</span>
+      <span class="optText">${renderText(txt, 't15')}</span>
+    </button>`;
+  }).join('');
+
+  const showExp = item.showExplanation;
+  const hasExp = hasValue(item.explanation);
+
+  return `<div class="card" id="q${idx}">
+    <div class="q">${renderText('Q' + item.qNumber + '. ' + item.question)}</div>
+    ${pic(item.questionPic)}
+    ${hasTableData(item.sideQue) ? buildTable(item.sideQue) : ''}
+    <hr>
+    ${opts}
+    <div class="actions">
+      <button data-act="reveal" data-q="${idx}">${showExp ? ICON.eyeOn : ICON.eyeOff}
+        <span>${showExp ? 'Hide Explanation' : 'Show Answer'}</span></button>
+    </div>
+    ${(hasExp && showExp) ? `<div class="expl"><div class="hd">${ICON.bulb}<span>Explanation</span></div>${renderText(item.explanation, 't14')}</div>` : ''}
+  </div>`;
+}
+
+function renderItem(item, idx){
+  if (item.isSection) return renderSection(item);
+  return item.type === 'objective' ? renderObjective(item, idx) : renderSubjective(item, idx);
+}
+
+function renderAll(){
+  if (!questions.length) { setBody('<div class="center">No questions available for this chapter.</div>'); return; }
+  setBody(questions.map(renderItem).join(''));
+}
+
+function rerenderCard(idx){
+  const el = document.getElementById('q' + idx);
+  if (el) el.outerHTML = renderItem(questions[idx], idx);
+}
+
+/* ---------- interaction (ports of _handleAnswerSelection / _showCorrectAnswer) ---------- */
+function pick(idx, ai){
+  const it = questions[idx];
+  if (it.selected === null) {
+    it.selected = ai;
+    if (ai === it.correctIndex) it.showAnswer = true;
+  }
+  rerenderCard(idx);
+}
+
+function reveal(idx){
+  const it = questions[idx];
+  it.showExplanation = !it.showAnswer ? true : !it.showExplanation;
+  it.showAnswer = true;
+  it.answerRevealed = true;
+  it.selected = it.correctIndex;
+  rerenderCard(idx);
+}
+
+root.addEventListener('click', e => {
+  const b = e.target.closest('[data-act]');
+  if (!b) return;
+  const act = b.dataset.act;
+  if (act === 'retry') fetchQuizData();
+  else if (act === 'pick') pick(+b.dataset.q, +b.dataset.a);
+  else if (act === 'reveal') reveal(+b.dataset.q);
+});
+
+document.getElementById('backBtn').addEventListener('click', () => {
+  if (history.length > 1) history.back(); else window.close();
+});
+
+document.getElementById('title').textContent = TITLE;
+document.title = TITLE;
+
+// wait for KaTeX (deferred script) before first render
+window.addEventListener('load', fetchQuizData);
+</script>
+</body>
+</html>
