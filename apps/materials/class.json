@@ -6,11 +6,11 @@
 "Class-IX",
 "Class-X"
 ],
-     
+
 "subject": [["Science(विज्ञान)","History (इतिहास)"],
 [" विज्ञान(Science)",""],
 ["",""]
-     
+
 ],
 
 "chapter":[
@@ -69,7 +69,7 @@
 "https://ismilesheikh.github.io/jharreader/apps/materials/9th/objective/science/sci12.json"
 ],[""]],
 
-[["https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci1.json","https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci2.json","https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci3.json","https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci4.json","https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci5.json","https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci6.json","https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci7.json","https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci8.json"
+[["","https://ismilesheikh.github.io/jharreader/apps/materials/10th/objective/science/sci2.json"
 ],
 [""]],
 [
@@ -109,7 +109,7 @@
 "https://ismilesheikh.github.io/jharreader/apps/massage1.json",
 "https://ismilesheikh.github.io/jharreader/apps/massage1.json","https://ismilesheikh.github.io/jharreader/apps/massage1.json"]],
 
- 
+
  [["https://ismilesheikh.github.io/jharreader/apps/massage1.json",
 "https://ismilesheikh.github.io/jharreader/apps/massage1.json",
 "https://ismilesheikh.github.io/jharreader/apps/massage1.json",
@@ -145,7 +145,7 @@
 ],
 
 "link":[
- [["https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci1.json"]],
+ [["https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci1.json","https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci2.json","https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci3.json","https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci4.json","https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci5.json","https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci6.json","https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci7.json","https://ismilesheikh.github.io/jharreader/apps/materials/7th/subjective/science/sci8.json"]],
 
  [["https://ismilesheikh.github.io/jharreader/apps/materials/eight/subjective/science/sci1.json","https://ismilesheikh.github.io/jharreader/apps/materials/eight/subjective/science/sci2.json","","","","","","","","",
 "https://ismilesheikh.github.io/jharreader/apps/materials/eight/subjective/science/sci11.json","","","https://ismilesheikh.github.io/jharreader/apps/materials/eight/subjective/science/sci14.json","","https://ismilesheikh.github.io/jharreader/apps/materials/eight/subjective/science/sci16.json"],
@@ -164,8 +164,8 @@
   [["","","","","","https://ismilesheikh.github.io/jharreader/apps/materials/9th/subjective/science/sci6.json"]],
 
   [["https://ismilesheikh.github.io/jharreader/apps/materials/10th/subjective/science/sci1.json","","","","","","","https://ismilesheikh.github.io/jharreader/apps/materials/10th/subjective/science/sci1.json"],[""]]
-  
+
   ]
  }
-   
+
   ]
