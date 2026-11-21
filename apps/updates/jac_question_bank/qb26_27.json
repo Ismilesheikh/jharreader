@@ -1,79 +1,64 @@
 [
   {
     "type": "heading",
-    "heading": "JAC Class 8th to 12th Question Bank & Exam Pattern 2026 – 2027",
+    "heading": "JAC Class 11th & 12th Question Bank 2026 – 2027",
     "left": "Jharkhand (JAC / JCERT)",
     "right": "Session: 2026 – 2027"
   },
   {
     "type": "text",
-    "data": "Jharkhand Academic Council (JAC) and JCERT have released class-wise Question Banks for Classes 8th to 12th based on the 100% prescribed syllabus for the 2026–2027 session. Below are separate sections for each class featuring the latest exam pattern and subject-wise PDF download tables.",
+    "data": "Jharkhand Academic Council (JAC) and JCERT have issued class-wise Question Bank details for Class 11th and Class 12th for the 2026–2027 session based on NCERT and JAC prescribed textbooks. Below are separate sections for Class 11th and Class 12th with exam pattern highlights and subject-wise PDF download tables across Languages, Arts, Science, and Commerce.",
+    "url": ""
+  },
+  {
+    "type": "heading",
+    "header": "======= CLASS 11TH SECTION ======",
     "url": ""
   },
   {
     "type": "text",
-    "data": "==================== CLASS 8TH SECTION ====================",
-    "url": ""
-  },
-  {
-    "type": "text",
-    "data": "JAC Class 8th Exam Pattern 2026–2027:\n• Syllabus Coverage: 100% Full Syllabus (NCERT & JCERT Textbooks)\n• Exam Mode: Written (Answer Booklet only; no separate OMR sheet)\n• Question Types: MCQ, Very Short Type (VST), Short Answer & Long Answer\n• Passing Criteria: Minimum 33% marks required",
+    "data": "JAC Class 11th Exam Pattern 2026–2027:\n• Syllabus Coverage: Full Prescribed Syllabus (NCERT & JAC)\n• Streams Covered: Arts, Science, and Commerce\n• Question Types: Objective (MCQ), Very Short, Short & Long Answer Questions\n• Assessment Structure: Theory + Internal/Practical as per JAC guidelines",
     "url": ""
   },
   {
     "type": "table",
-    "headers": ["Class 8th Subject", "PDF Download Link", "Status"],
+    "headers": ["Class 11th Language Subject", "Downloading Link"],
     "rows": [
-      ["Hindi", "https://jacexamportal.in/", "Available"],
-      ["English", "https://jacexamportal.in/", "Available"],
-      ["Mathematics", "https://jacexamportal.in/", "Available"],
-      ["Science", "https://jacexamportal.in/", "Available"],
-      ["Social Science", "https://jacexamportal.in/", "Available"],
-      ["Sanskrit", "https://jacexamportal.in/", "Available"]
+      ["Hindi Core", "https://jacexamportal.in/"],
+      ["Hindi Elective", "https://jacexamportal.in/"],
+      ["English Core", "https://jacexamportal.in/"],
+      ["English Elective", "https://jacexamportal.in/"],
+      ["Sanskrit", "https://jacexamportal.in/"]
     ]
   },
   {
-    "type": "text",
-    "data": "==================== CLASS 9TH SECTION ====================",
-    "url": ""
-  },
-  {
-    "type": "text",
-    "data": "JAC Class 9th Exam Pattern 2026–2027:\n• Syllabus Coverage: 100% Full Prescribed Syllabus (NCERT & JCERT)\n• Exam Mode: OMR Sheet & Written Answer Booklet + Internal Assessment\n• Question Types: Objective (MCQ) and Subjective Questions\n• Passing Criteria: Minimum 33% marks required",
-    "url": ""
-  },
-  {
     "type": "table",
-    "headers": ["Class 9th Subject", "PDF Download Link", "Status"],
+    "headers": ["Class 11th Arts Subject", "Downloading Link"],
     "rows": [
-      ["Hindi A & B", "https://jacexamportal.in/", "Available"],
-      ["English", "https://jacexamportal.in/", "Available"],
-      ["Mathematics", "https://jacexamportal.in/", "Available"],
-      ["Science", "https://jacexamportal.in/", "Available"],
-      ["Social Science", "https://jacexamportal.in/", "Available"],
-      ["Sanskrit / Urdu", "https://jacexamportal.in/", "Available"]
+      ["History", "https://jacexamportal.in/"],
+      ["Geography", "https://jacexamportal.in/"],
+      ["Economics", "https://jacexamportal.in/"],
+      ["Political Science", "https://jacexamportal.in/"]
     ]
   },
   {
-    "type": "text",
-    "data": "==================== CLASS 10TH (MATRIC) SECTION ====================",
-    "url": ""
-  },
-  {
-    "type": "text",
-    "data": "JAC Class 10th Exam Pattern 2026–2027:\n• Syllabus Coverage: 100% Full Board Syllabus (NCERT & JCERT)\n• Exam Mode: Single-Stage Annual Board Exam (Theory + Internal/Practical)\n• Question Types: Objective (MCQ), Very Short, Short & Long Answer Questions\n• Passing Criteria: Minimum 33% marks in theory and practical/internal",
-    "url": ""
+    "type": "table",
+    "headers": ["Class 11th Science Subject", "Downloading Link"],
+    "rows": [
+      ["Physics", "https://jacexamportal.in/"],
+      ["Chemistry", "https://jacexamportal.in/"],
+      ["Biology", "https://jacexamportal.in/"],
+      ["Math", "https://jacexamportal.in/"]
+    ]
   },
   {
     "type": "table",
-    "headers": ["Class 10th Subject", "PDF Download Link", "Status"],
+    "headers": ["Class 11th Commerce Subject", "Downloading Link"],
     "rows": [
-      ["Hindi (Course A & B)", "https://jacexamportal.in/", "Available"],
-      ["English", "https://jacexamportal.in/", "Available"],
-      ["Mathematics", "https://jacexamportal.in/", "Available"],
-      ["Science", "https://jacexamportal.in/", "Available"],
-      ["Social Science", "https://jacexamportal.in/", "Available"],
-      ["Sanskrit / Urdu", "https://jacexamportal.in/", "Available"]
+      ["Accountancy", "https://jacexamportal.in/"],
+      ["Entrepreneurship", "https://jacexamportal.in/"],
+      ["Business Studies", "https://jacexamportal.in/"],
+      ["Commercial Arithmetic", "https://jacexamportal.in/"]
     ]
   },
   {
@@ -81,50 +66,53 @@
   },
   {
     "type": "text",
-    "data": "==================== CLASS 11TH SECTION ====================",
+    "data": "==================== CLASS 12TH SECTION ====================",
     "url": ""
   },
   {
     "type": "text",
-    "data": "JAC Class 11th Exam Pattern 2026–2027:\n• Syllabus Coverage: 100% Full Prescribed Syllabus (NCERT & JAC)\n• Streams: Science, Commerce & Arts\n• Exam Mode: Single-Stage Annual Exam (Objective + Subjective & Internal/Practical)\n• Passing Criteria: Minimum 33% marks required",
+    "data": "JAC Class 12th Exam Pattern 2026–2027:\n• Syllabus Coverage: Full Board Syllabus (NCERT & JAC)\n• Streams Covered: Arts, Science, and Commerce\n• Question Types: Objective (MCQ), Very Short, Short & Long Answer Questions\n• Assessment Structure: Annual Theory Exam + Practical/Internal Assessment",
     "url": ""
   },
   {
     "type": "table",
-    "headers": ["Class 11th Subject (Stream-wise)", "PDF Download Link", "Status"],
+    "headers": ["Class 12th Language Subject", "Downloading Link"],
     "rows": [
-      ["Physics (Science)", "https://jacexamportal.in/", "Available"],
-      ["Chemistry (Science)", "https://jacexamportal.in/", "Available"],
-      ["Mathematics / Biology (Science)", "https://jacexamportal.in/", "Available"],
-      ["Accountancy (Commerce)", "https://jacexamportal.in/", "Available"],
-      ["Business Studies & Economics (Commerce)", "https://jacexamportal.in/", "Available"],
-      ["History & Geography (Arts)", "https://jacexamportal.in/", "Available"],
-      ["Political Science & Sociology (Arts)", "https://jacexamportal.in/", "Available"],
-      ["English Core & Hindi Core (All Streams)", "https://jacexamportal.in/", "Available"]
+      ["Hindi Core", "https://jacexamportal.in/"],
+      ["Hindi Elective", "https://jacexamportal.in/"],
+      ["English Core", "https://jacexamportal.in/"],
+      ["English Elective", "https://jacexamportal.in/"],
+      ["Sanskrit", "https://jacexamportal.in/"]
     ]
   },
   {
-    "type": "text",
-    "data": "==================== CLASS 12TH (INTER) SECTION ====================",
-    "url": ""
-  },
-  {
-    "type": "text",
-    "data": "JAC Class 12th Exam Pattern 2026–2027:\n• Syllabus Coverage: 100% Full Board Syllabus (NCERT & JAC)\n• Streams: Science, Commerce & Arts\n• Exam Mode: Single-Stage Annual Board Exam (Theory + Practical/Internal)\n• Question Types: Objective (MCQ), Very Short, Short & Long Answer Questions\n• Passing Criteria: Minimum 33% marks required",
-    "url": ""
+    "type": "table",
+    "headers": ["Class 12th Arts Subject", "Downloading Link"],
+    "rows": [
+      ["History", "https://jacexamportal.in/"],
+      ["Geography", "https://jacexamportal.in/"],
+      ["Economics", "https://jacexamportal.in/"],
+      ["Political Science", "https://jacexamportal.in/"]
+    ]
   },
   {
     "type": "table",
-    "headers": ["Class 12th Subject (Stream-wise)", "PDF Download Link", "Status"],
+    "headers": ["Class 12th Science Subject", "Downloading Link"],
     "rows": [
-      ["Physics (Science)", "https://jacexamportal.in/", "Available"],
-      ["Chemistry (Science)", "https://jacexamportal.in/", "Available"],
-      ["Mathematics / Biology (Science)", "https://jacexamportal.in/", "Available"],
-      ["Accountancy (Commerce)", "https://jacexamportal.in/", "Available"],
-      ["Business Studies & Economics (Commerce)", "https://jacexamportal.in/", "Available"],
-      ["History & Geography (Arts)", "https://jacexamportal.in/", "Available"],
-      ["Political Science & Economics (Arts)", "https://jacexamportal.in/", "Available"],
-      ["English Core & Hindi Core (All Streams)", "https://jacexamportal.in/", "Available"]
+      ["Physics", "https://jacexamportal.in/"],
+      ["Chemistry", "https://jacexamportal.in/"],
+      ["Biology", "https://jacexamportal.in/"],
+      ["Math", "https://jacexamportal.in/"]
+    ]
+  },
+  {
+    "type": "table",
+    "headers": ["Class 12th Commerce Subject", "Downloading Link"],
+    "rows": [
+      ["Accountancy", "https://jacexamportal.in/"],
+      ["Entrepreneurship", "https://jacexamportal.in/"],
+      ["Business Studies", "https://jacexamportal.in/"],
+      ["Commercial Arithmetic", "https://jacexamportal.in/"]
     ]
   },
   {
@@ -133,7 +121,7 @@
     "rows": [
       ["JAC Official Portal", "https://jac.jharkhand.gov.in/"],
       ["JAC Exam & Question Bank Portal", "https://jacexamportal.in/"],
-      ["JAC Syllabus & Study Material", "https://jac.jharkhandexamprep.com/question-bank/"]
+      ["JAC Question Bank Updates", "https://jharupdate.com/"]
     ]
   }
 ]
