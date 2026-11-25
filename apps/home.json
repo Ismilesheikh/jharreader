@@ -1,0 +1,198 @@
+{
+  "title": "Home",
+  "blocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "icon": "auto_stories",
+      "greeting": "{greeting},",
+      "greetingGuest": "Hello there,",
+      "title": "{name}",
+      "titleGuest": "Welcome",
+      "subtitle": "Ready to learn something new today?",
+      "subtitleGuest": "Sign in to unlock updates, notes and exam alerts.",
+      "button": {
+        "label": "Sign in",
+        "icon": "login",
+        "audience": "guest",
+        "action": "login"
+      }
+    },
+    {
+      "id": "notice",
+      "type": "ticker",
+      "visible": false,
+      "color": "#E08A1E",
+      "seconds": 4,
+      "items": [
+        {
+          "text": "New: Jharkhand GK notes added",
+          "action": "route:study_material"
+        },
+        {
+          "text": "Follow the Updates tab for exam alerts",
+          "action": "tab:1"
+        }
+      ]
+    },
+    {
+      "id": "banners",
+      "type": "banner",
+      "visible": false,
+      "height": 160,
+      "autoplay": 5,
+      "items": [
+        {
+          "title": "Study material",
+          "subtitle": "Notes for every class",
+          "badge": "NEW",
+          "colors": [
+            "#00838F",
+            "#00ACC1"
+          ],
+          "icon": "menu_book",
+          "action": "route:study_material"
+        },
+        {
+          "title": "Exam alerts",
+          "subtitle": "Never miss a date",
+          "colors": [
+            "#4F5BD5",
+            "#7C8CFF"
+          ],
+          "icon": "notifications_active",
+          "action": "tab:1"
+        }
+      ]
+    },
+    {
+      "id": "quick",
+      "type": "quick_actions",
+      "columns": 4,
+      "items": [
+        {
+          "icon": "notifications_active",
+          "label": "Updates",
+          "colors": [
+            "#FF4D6D",
+            "#FF8A5B"
+          ],
+          "action": "tab:1"
+        },
+        {
+          "icon": "school",
+          "label": "JAC",
+          "colors": [
+            "#4F5BD5",
+            "#7C8CFF"
+          ],
+          "action": "tab:2"
+        },
+        {
+          "icon": "work",
+          "label": "Jobs & Exams",
+          "colors": [
+            "#8E44AD",
+            "#C77DDB"
+          ],
+          "action": "tab:3"
+        },
+        {
+          "icon": "menu_book",
+          "label": "Study",
+          "colors": [
+            "#00838F",
+            "#00ACC1"
+          ],
+          "action": "route:study_material"
+        }
+      ],
+      "gap": 22
+    },
+    {
+      "id": "new_update",
+      "type": "widget",
+      "key": "new_update_card"
+    },
+    {
+      "id": "h_subjects",
+      "type": "section_header",
+      "title": "Subjects"
+    },
+    {
+      "id": "subjects",
+      "type": "cards",
+      "columns": 2,
+      "height": 150,
+      "gap": 14,
+      "items": [
+        {
+          "title": "इतिहास",
+          "subtitle": "History",
+          "image": "assets/images/history.png",
+          "accent": "#E08A1E",
+          "tint": "#FFF1DC",
+          "action": "route:history"
+        },
+        {
+          "title": "भूगोल",
+          "subtitle": "Geography",
+          "image": "assets/images/science.png",
+          "accent": "#2E9E6B",
+          "tint": "#DDF4E8",
+          "action": "route:geography"
+        }
+      ]
+    },
+    {
+      "id": "study",
+      "type": "action_card",
+      "icon": "menu_book",
+      "title": "Class study material",
+      "subtitle": "Curated notes and materials for every class",
+      "action": "route:study_material",
+      "gap": 30
+    },
+    {
+      "id": "h_updates",
+      "type": "section_header",
+      "title": "Latest updates",
+      "icon": "notifications_active",
+      "action": "tab:1"
+    },
+    {
+      "id": "p_updates",
+      "type": "preview",
+      "widget": "news_preview",
+      "action": "tab:1",
+      "gap": 30
+    },
+    {
+      "id": "h_jac",
+      "type": "section_header",
+      "title": "JAC corner",
+      "icon": "school",
+      "action": "tab:2"
+    },
+    {
+      "id": "p_jac",
+      "type": "preview",
+      "widget": "jac_preview",
+      "action": "tab:2",
+      "gap": 30
+    },
+    {
+      "id": "h_jobs",
+      "type": "section_header",
+      "title": "Jobs & exams",
+      "icon": "work",
+      "action": "tab:3"
+    },
+    {
+      "id": "p_jobs",
+      "type": "preview",
+      "widget": "jobs_preview",
+      "action": "tab:3"
+    }
+  ]
+}
